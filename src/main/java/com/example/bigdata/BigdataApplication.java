@@ -7,7 +7,10 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class BigdataApplication {
 
     public static void main(String[] args) {
+
         SpringApplication.run(BigdataApplication.class, args);
+
+        System.out.println("aaa");
     }
 
 }
