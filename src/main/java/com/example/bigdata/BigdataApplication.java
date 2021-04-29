@@ -10,7 +10,6 @@ public class BigdataApplication {
 
         SpringApplication.run(BigdataApplication.class, args);
 
-        System.out.println("aaa");
     }
 
 }
