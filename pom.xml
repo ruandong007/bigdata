@@ -17,7 +17,8 @@
         <lombak.version>1.18.24</lombak.version>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 
-        <kafka.client.version>3.3.1</kafka.client.version>
+        <kafka.version>3.2.0</kafka.version>
+        <json.version>2.0.19</json.version>
     </properties>
 
     <dependencyManagement>
@@ -49,7 +50,18 @@
             <dependency>
                 <groupId>org.apache.kafka</groupId>
                 <artifactId>kafka-clients</artifactId>
-                <version>${kafka.client.version}</version>
+                <version>${kafka.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.apache.kafka</groupId>
+                <artifactId>kafka_2.12</artifactId>
+                <version>${kafka.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>com.alibaba.fastjson2</groupId>
+                <artifactId>fastjson2</artifactId>
+                <version>${json.version}</version>
             </dependency>
 
         </dependencies>
