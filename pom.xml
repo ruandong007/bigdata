@@ -19,6 +19,7 @@
 
         <kafka.version>3.2.0</kafka.version>
         <json.version>2.0.19</json.version>
+        <guava.version>31.1-jre</guava.version>
     </properties>
 
     <dependencyManagement>
@@ -62,6 +63,13 @@
                 <groupId>com.alibaba.fastjson2</groupId>
                 <artifactId>fastjson2</artifactId>
                 <version>${json.version}</version>
+            </dependency>
+
+            <!-- https://mvnrepository.com/artifact/com.google.guava/guava -->
+            <dependency>
+                <groupId>com.google.guava</groupId>
+                <artifactId>guava</artifactId>
+                <version>${guava.version}</version>
             </dependency>
 
         </dependencies>
