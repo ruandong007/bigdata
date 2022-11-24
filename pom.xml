@@ -79,6 +79,7 @@
     <modules>
         <module>kafka</module>
         <module>flink</module>
+        <module>netty</module>
     </modules>
 
     <build>
